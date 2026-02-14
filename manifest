@@ -1,0 +1,30 @@
+C Update\sHISTORY,\sremove\sobsolete\sfile.
+D 2018-06-30T17:35:34.537
+F HISTORY cc0df52dfc332ae0b72d81f9f14b3270b37a8584
+F Makefile 2944f5e77e7104eb100dc465ef5cd64a2c3120e4
+F README 2899b58d0d7f59474f69f3543e255ec9f6cf4f6e
+F doc/lsqlite3.wiki 9ab7cc82249ea84c4d55c2cb89d2de688e24720a x
+F examples/aggregate.lua e0399ff84e65778b4877f784df7080050c624e46
+F examples/function.lua fbea9481d0b49960ac057a7e4802ab49f4fe5ecb
+F examples/hooks_advanced.lua 8157f16fa6bd6d20407ce01feeee4667bd52c08b
+F examples/order.lua 915b3aef65c6dbb9d8850af08a18c73cc8449a36
+F examples/simple.lua 0c08de88e066ef2d6cf59c4be3d7ce2aa7df32c9
+F examples/smart.lua 745804127355d8dfc8577f5436bc6b097e1bd891
+F examples/statement.lua eeed9ed71ac485f96a8df162020ff6c20441fbcc
+F examples/tracing.lua 1b9878cabda8e831356db1bb0406717e28415966
+F examples/update_hook.lua 932c321667c7f4bccd99c5de35962a38e34e7aed
+F extras/Makefile 5414faf72bbdf394628ff6493787222b4786e043
+F extras/extension-functions.c c68fa706d6d9ff98608044c00212473f9c14892f
+F extras/installpath.lua 275a080000cb44dcc23b5170f7095d22a233ec6c
+F lsqlite3-0.9.5-1.rockspec b0d4a52701771ea6d02ef937a24ccaa3f04f8324
+F lsqlite3.c 413b949fe98bb80f063e9059ee4a20880435ba52
+F lsqlite3complete-0.9.5-1.rockspec 6e5ed78dc8a3e7841f56ff4406368ed689c8bf4a
+F sqlite3.c 2452419372c446f0021943fb60d0ece1fe21e30f
+F sqlite3.h 560d7f307ee6d9df4004ec9ec31800ce9dfb05e6
+F test/test-dyld.lua cb94256b0dd652615d4d8c790deed02c9f395075
+F test/test.lua 23cd81a88ffd3f11667131dbf56a8bfad3b75d9b
+F test/tests-sqlite3.lua 6e8ce4116360364dca18a908a4adb0d7fc708b8d
+P 21ab5cda4d8fa060d717dc08240dd5ab9872608f
+R 5b6d98c53dc6f8c1a3cddbb3e0ae9090
+U e
+Z 04e903b225de583e5c1c95a10b12216c
