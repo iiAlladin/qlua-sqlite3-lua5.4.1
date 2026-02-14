@@ -1,5 +1,5 @@
 Причесанный с помощью ИИ
-собранный под Windows VS2022
+собранный под Windows VS2022 для работы с QUIK 12.6.1.2 lua 5.4.1
 
 LuaSQLite3 provides a means to manipulate SQLite3 
 databases directly from lua using Lua 5.
