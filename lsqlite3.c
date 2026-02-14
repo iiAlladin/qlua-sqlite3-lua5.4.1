@@ -1184,7 +1184,12 @@ static int db_register_function(lua_State *L, int aggregate) {
     func = (sdb_func*)malloc(sizeof(sdb_func));
     if (func == NULL) {
         luaL_error(L, "out of memory");
+        /* јнализатор теперь понимает, что func не NULL при нормальном выполнении */
+        return 0; /* ’от€ luaL_error не возвращает, это помогает анализатору */
     }
+
+    /* »нициализируем func перед использованием */
+    memset(func, 0, sizeof(sdb_func));
 
     result = sqlite3_create_function(
         db->db, name, args, SQLITE_UTF8, func,
@@ -1207,7 +1212,7 @@ static int db_register_function(lua_State *L, int aggregate) {
         lua_pushvalue(L, 4);
         func->fn_step = luaL_ref(L, LUA_REGISTRYINDEX);
         /* save user data */
-        lua_pushvalue(L, 5+aggregate);
+        lua_pushvalue(L, 5 + aggregate);
         func->udata = luaL_ref(L, LUA_REGISTRYINDEX);
 
         if (aggregate) {
